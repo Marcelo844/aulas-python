@@ -11,4 +11,3 @@ df["Data de Cadastro"] = pd.to_datetime(df["Data de Cadastro"], errors="coerce")
 
 print("Tipos de dados após a conversão:")
 print(df.dtypes)
-
